@@ -12,6 +12,12 @@ The booth is driven by the [photobooth project](https://github.com/PhotoboothPro
 - 7" touchscreen
 - remote buzzer
 
+
+## :camera: Photobooth in action
+
+![](/images/take%20picture.gif)
+
+
 ## :camera: Pictures of the photobooth
 
 ![](/images/booth-100-000-screenshot1.PNG)
