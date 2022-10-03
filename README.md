@@ -1,6 +1,6 @@
 # Photobooth 3d
 
-A 3d printed photobooth based on raspberry pi and high quality camera.
+A 3d printed photobooth based on raspberry pi and a Arducam autofocus camera.
 This repo holds solidworks cad data and files to print the case as well as a bom with all the components used.
 The booth is driven by the [photobooth project](https://github.com/PhotoboothProject/photobooth).
 ![photobooth 3d printed](/images/booth-100-000-screenshot5.PNG)
