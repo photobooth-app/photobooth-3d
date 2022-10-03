@@ -25,6 +25,10 @@ The booth is driven by the [photobooth project](https://github.com/PhotoboothPro
 - components listed in [BOM](docs/BOM.xlsx)
 - solidworks maker if modifications desired
 - [imageserver setup](https://github.com/mgrl/photobooth-imageserver)
+  - simple python app
+  - permanent live camera preview
+  - autofocus algorithm integrated
+  - configurable
 - [photobooth installed](https://photoboothproject.github.io/)
 
 ## :wrench: Assembly
