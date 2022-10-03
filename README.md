@@ -20,7 +20,7 @@ The booth is driven by the [photobooth project](https://github.com/PhotoboothPro
 
 ## :camera: Pictures of the photobooth
 
-![](/images/booth-100-000-screenshot1.PNG)
+![](/images/booth-100-000-screenshot1-anno.PNG)
 ![](/images/booth-100-000-screenshot2.PNG)
 ![](/images/booth-100-000-screenshot3.PNG)
 ![](/images/booth-100-000-screenshot4.PNG)
