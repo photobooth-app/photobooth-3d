@@ -2,45 +2,47 @@
 
 A 3d printed photobooth based on raspberry pi and high quality camera.
 This repo holds solidworks cad data and files to print the case as well as a bom with all the components used.
-The booth is driven by the photobooth fork from [andreknieriem](https://github.com/andi34/photobooth), initially developed by [andreknieriem](https://github.com/andreknieriem/photobooth).
-
+The booth is driven by the [photobooth project](https://github.com/PhotoboothProject/photobooth).
+![photobooth 3d printed](/images/booth-100-000-screenshot5.PNG)
 ## :heart_eyes: Features
 
-- No1
-- No2
-- ... _..._
+- compact design
+- 16MP autofocus camera
+- led ring signaling photo countdown and when the photo is actually taken
+- 7" touchscreen
+- remote buzzer
 
 ## :camera: Pictures of the photobooth
 
-TODO
+![](/images/booth-100-000-screenshot1.PNG)
+![](/images/booth-100-000-screenshot2.PNG)
+![](/images/booth-100-000-screenshot3.PNG)
+![](/images/booth-100-000-screenshot4.PNG)
 
 ## :gear: Prerequisites
 
 - 3d printer
-- components listed in bom
-- solidworks maker if modifications desired.
-- ...
+- components listed in [BOM](docs/BOM.xlsx)
+- solidworks maker if modifications desired
+- [imageserver setup](https://github.com/mgrl/photobooth-imageserver)
+- [photobooth installed](https://photoboothproject.github.io/)
 
-## :wrench: Installation & Troubleshooting
+## :wrench: Assembly
 
-Please follow the installation instructions in our
-[Photobooth-Wiki](https://github.com/andi34/photobooth/wiki) to setup
-Photobooth in general.
+...TODO...
 
-Following instructions apply for this setup specifically:
-...
-TODO
+## :mag: Changelog
 
-### :mag: Changelog
-
-Please take a look at the changelog [changelog](https://github.com/TODO).
+- rc1 (2022-10-03)
+  - introduced led ring
+  - improved assembly and strength
+  - camera mount improved and allows for alignment while assembling
+- prototype
+  - first version for testing and design improvements
 
 ### :copyright: License
 
-Photobooth source is licensed under the MIT license.  
-  
-Once build, Photobooth incorporates several parts and optimizations that are covered by a different license which could apply to Photobooth as well.  
-All dependencies include their respective LICENSE files.
+The design is licensed under the MIT license.  
 
 ### :tada: Donation
 
@@ -48,6 +50,4 @@ If you like my work and like to keep me motivated you can buy me a coconut water
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](localhost)
 
-### :clap: Contributors and thanks to
 
-- [123](localhost)
