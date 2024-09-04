@@ -32,7 +32,7 @@ There are two different width variants:
 
 ## :wrench: Material (BOM)
 - Touchscreen:
-  - 7": [10.1DP-CAPLCD](https://www.waveshare.com/10.1dp-caplcd.htm) (DSI, preferred, tested)
+  - 7": [7inch DSI LCD (C)](https://www.waveshare.com/7inch-DSI-LCD-C.htm) (DSI, preferred, tested)
   - 10": [10.1DP-CAPLCD](https://www.waveshare.com/10.1dp-caplcd.htm) (HDMI, preferred, tested)
   - 10": [10.1inch HDMI LCD (E)](https://www.waveshare.com/10.1inch-hdmi-lcd-e.htm) (HDMI, alternative)
 - RGB-LED Ring:
