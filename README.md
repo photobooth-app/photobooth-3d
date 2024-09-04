@@ -1,21 +1,48 @@
-# Photobooth 3d
+# 3d printed box for the photobooth-app
 
-A 3d printed photobooth based on raspberry pi and a Arducam autofocus camera.
-This repo holds solidworks cad data and files to print the case as well as a bom with all the components used.
-The booth is driven by the [photobooth project](https://github.com/PhotoboothProject/photobooth).
+Download your 3d print files to build a photobooth integrating Raspberry Pi cameras or DSLR.
+This repo holds solidworks cad data and files to print the case as well as a basic list of materials to build the booth.
+
+The booth is driven by the [photobooth-app](https://photobooth-app.org/).
+
 ![photobooth 3d printed](/images/booth-100-000-screenshot5.PNG)
+
+
 ## :heart_eyes: Features
 
 - compact design
-- 16MP autofocus camera
-- led ring signaling photo countdown and when the photo is actually taken
-- 7" touchscreen
-- remote buzzer
+- DSLR and picamera variants
+- led ring signaling countdown and when the photo is actually taken
+- 7" or 10" touchscreens supported
 
 
-## :camera: Photobooth in action
+## Variants
 
-![](/images/take%20picture.gif)
+### Variant in depth
+There are two different depth variants:
+- higher depth for DSLR
+- lower depth for Pi camera setups.
+
+### Variant in width
+There are two different width variants:
+- wide that allows for 10" screens
+- narrow that allows for 7" screens only
+
+
+
+## :wrench: Material (BOM)
+- Touchscreen:
+  - 7": [10.1DP-CAPLCD](https://www.waveshare.com/10.1dp-caplcd.htm) (DSI, preferred, tested)
+  - 10": [10.1DP-CAPLCD](https://www.waveshare.com/10.1dp-caplcd.htm) (HDMI, preferred, tested)
+  - 10": [10.1inch HDMI LCD (E)](https://www.waveshare.com/10.1inch-hdmi-lcd-e.htm) (HDMI, alternative)
+- RGB-LED Ring:
+  - for Raspberry cameras: [5V RGB LED Ring WS2812B, outer diameter 38mm inner diameter 27mm](https://www.amazon.de/gp/product/B07TZK9DNT/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
+  - for DSLR: [24 Bits WS2812 5050 RGB LED Ring](https://www.amazon.de/gp/product/B07DKJ6SFR/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+- Threaded Inserts: [threaded inserts](https://www.amazon.de/VIGRUE-Gewindeeinsatz-Einpressmutter-Gewindebuchsen-Kunststoffteiledurch/dp/B08DHYD73Q/)
+
+Above are the parts that are hard required by the mechanical design.
+Of course you need to add your Raspberry Pi or alternative computer and the camera depending on your setup.
+
 
 
 ## :camera: Pictures of the photobooth
@@ -28,21 +55,17 @@ The booth is driven by the [photobooth project](https://github.com/PhotoboothPro
 ## :gear: Prerequisites
 
 - 3d printer
-- components listed in [BOM](docs/BOM.xlsx)
-- solidworks maker if modifications desired
-- [imageserver setup](https://github.com/mgrl/photobooth-imageserver)
-  - simple python app
-  - permanent live camera preview
-  - autofocus algorithm integrated
-  - configurable
-- [photobooth installed](https://photoboothproject.github.io/)
+- Material listed above and additional electronics specific to your setup (Raspberry Pi, ...)
+- Solidworks maker if modifications desired
+- works best with the [photobooth-app](https://photobooth-app.org/)
 
-## :wrench: Assembly
-
-...TODO...
 
 ## :mag: Changelog
 
+- rc2 facelift 2024-09-05
+  - backplate including cooling
+  - simplified design
+  - prepared for quality touchscreens from waveshare to enhance reliability
 - rc1 (2022-10-03)
   - introduced led ring
   - improved assembly and strength
@@ -56,8 +79,6 @@ The design is licensed under the MIT license.
 
 ### :tada: Donation
 
-If you like my work and like to keep me motivated you can buy me a coconut water:
+If you like my work and like to keep me motivated you can sponsor me:
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](localhost)
-
-
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=8255Y566TBNEC)
