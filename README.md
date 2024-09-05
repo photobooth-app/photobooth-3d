@@ -28,7 +28,19 @@ There are two different width variants:
 - wide that allows for 10" screens
 - narrow that allows for 7" screens only
 
+### Download model as is
 
+The recommended variants are provided as STEP file for direct 3d printing.
+STEP files can be imported in the Slicer and split into single objects before printing.
+
+| Camera    | Width  | Depth | Screen                                                             | STEP file                             |
+|-----------|--------|-------|--------------------------------------------------------------------|---------------------------------------|
+| Pi Camera | narrow | short | [7inch DSI LCD (C)](https://www.waveshare.com/7inch-DSI-LCD-C.htm) | booth-100-000_narrow-picam-7inch.STEP |
+|           | wide   | short | [10.1DP-CAPLCD](https://www.waveshare.com/10.1dp-caplcd.htm)       | booth-100-000_wide-picam-10inch.STEP  |
+| DSLR      | narrow | deep  | [7inch DSI LCD (C)](https://www.waveshare.com/7inch-DSI-LCD-C.htm) | booth-100-000_narrow-dslr-7inch.STEP  |
+|           | wide   | deep  | [10.1DP-CAPLCD](https://www.waveshare.com/10.1dp-caplcd.htm)       | booth-100-000_wide-dslr-10inch.STEP   |
+
+If you want to modify the model, download the solidworks files.
 
 ## :wrench: Material (BOM)
 - Touchscreen:
@@ -63,6 +75,7 @@ Of course you need to add your Raspberry Pi or alternative computer and the came
 ## :mag: Changelog
 
 - rc2 facelift 2024-09-05
+  - overall size changed, not compatible with former version.
   - backplate including cooling
   - simplified design
   - prepared for quality touchscreens from waveshare to enhance reliability
