@@ -5,7 +5,7 @@ This repo holds solidworks cad data and files to print the case as well as a bas
 
 The booth is driven by the [photobooth-app](https://photobooth-app.org/).
 
-![photobooth 3d printed](/images/booth-100-000-screenshot5.PNG)
+![photobooth 3d printed](/images/10inch-overview.png)
 
 
 ## :heart_eyes: Features
@@ -46,23 +46,25 @@ If you want to modify the model, download the solidworks files.
 - Touchscreen:
   - 7": [7inch DSI LCD (C)](https://www.waveshare.com/7inch-DSI-LCD-C.htm) (DSI, preferred, tested)
   - 10": [10.1DP-CAPLCD](https://www.waveshare.com/10.1dp-caplcd.htm) (HDMI, preferred, tested)
-  - 10": [10.1inch HDMI LCD (E)](https://www.waveshare.com/10.1inch-hdmi-lcd-e.htm) (HDMI, alternative)
 - RGB-LED Ring:
   - for Raspberry cameras: [5V RGB LED Ring WS2812B, outer diameter 38mm inner diameter 27mm](https://www.amazon.de/gp/product/B07TZK9DNT/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
   - for DSLR: [24 Bits WS2812 5050 RGB LED Ring](https://www.amazon.de/gp/product/B07DKJ6SFR/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
-- Threaded Inserts: [threaded inserts](https://www.amazon.de/VIGRUE-Gewindeeinsatz-Einpressmutter-Gewindebuchsen-Kunststoffteiledurch/dp/B08DHYD73Q/)
+- Threaded inserts: [threaded inserts](https://www.amazon.de/VIGRUE-Gewindeeinsatz-Einpressmutter-Gewindebuchsen-Kunststoffteiledurch/dp/B08DHYD73Q/)
+- Exhaust cooling fan: any 30x30 5v fan
 
 Above are the parts that are hard required by the mechanical design.
 Of course you need to add your Raspberry Pi or alternative computer and the camera depending on your setup.
 
 
 
-## :camera: Pictures of the photobooth
+## :camera: CAD images of the box
 
-![](/images/booth-100-000-screenshot1-anno.PNG)
-![](/images/booth-100-000-screenshot2.PNG)
-![](/images/booth-100-000-screenshot3.PNG)
-![](/images/booth-100-000-screenshot4.PNG)
+![3d printed photobooth box 10inch variant with dslr front view](/images/10inch-dslr-front.png)
+![3d printed 10inch variant rear view](/images/10inch-dslr-rear.png)
+![3d printed photobooth box 7inch variant with pi camera front view](/images/7inch-picamera-front.png)
+![3d printed 7inch variant with pi camera rear view](/images/7inch-picamera-rear.png)
+![3d printed photobooth box rear view closed](/images/rear-closed.png)
+
 
 ## :gear: Prerequisites
 
@@ -74,6 +76,10 @@ Of course you need to add your Raspberry Pi or alternative computer and the came
 
 ## :mag: Changelog
 
+- v2 release 2024-09-13
+  - reworked solidworks model
+  - reinforced lower side in frame part
+  - split front and side frame so it can be printed in different colors easily.
 - rc2 facelift 2024-09-05
   - overall size changed, not compatible with former version.
   - backplate including cooling
